@@ -1,0 +1,39 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    display: flex;
+    gap: 5px;
+}
+
+.message {
+    padding: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
+}
+
+.employees {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.employee {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
